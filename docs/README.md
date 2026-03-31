@@ -11,6 +11,8 @@
 | [05_components.md](./05_components.md) | 各コンポーネント（Menu / Quiz / Clear）の解説 |
 | [06_css_modules.md](./06_css_modules.md) | CSS Modules の仕組みと使い方 |
 | [07_data_flow.md](./07_data_flow.md) | データの流れ・コンポーネント間の通信 |
+| [08_ui_changes.md](./08_ui_changes.md) | UI改善の記録（メニュー戻るボタン・カウンター移動） |
+| [09_github_setup.md](./09_github_setup.md) | GitHub 連携・GitHub Pages 公開手順 |
 
 ---
 
