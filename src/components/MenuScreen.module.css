@@ -9,13 +9,13 @@
 .title {
   font-size: 2.2rem;
   font-weight: 700;
-  color: #1a1a2e;
+  color: var(--text-primary);
   margin: 0;
 }
 
 .subtitle {
   font-size: 1rem;
-  color: #6b7280;
+  color: var(--text-muted);
   margin: 0;
   text-align: center;
 }
@@ -34,26 +34,26 @@
   align-items: flex-start;
   gap: 0.3rem;
   padding: 1.2rem 1.5rem;
-  border: 2px solid #e5e7eb;
+  border: 2px solid var(--border);
   border-radius: 12px;
-  background: white;
+  background: var(--bg-card);
   cursor: pointer;
   transition: border-color 0.15s, box-shadow 0.15s;
   text-align: left;
 }
 
 .levelButton:hover {
-  border-color: #6366f1;
+  border-color: var(--text-accent);
   box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
 }
 
 .levelLabel {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #1a1a2e;
+  color: var(--text-primary);
 }
 
 .levelDesc {
   font-size: 0.85rem;
-  color: #6b7280;
+  color: var(--text-muted);
 }
