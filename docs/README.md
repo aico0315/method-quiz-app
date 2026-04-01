@@ -13,6 +13,7 @@
 | [07_data_flow.md](./07_data_flow.md) | データの流れ・コンポーネント間の通信 |
 | [08_ui_changes.md](./08_ui_changes.md) | UI改善の記録（メニュー戻るボタン・カウンター移動） |
 | [09_github_setup.md](./09_github_setup.md) | GitHub 連携・GitHub Pages 公開手順 |
+| [10_qa_split_match.md](./10_qa_split_match.md) | Q&A：split と match の使い分け |
 
 ---
 
