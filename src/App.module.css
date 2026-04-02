@@ -1,31 +1,48 @@
 .app {
   min-height: 100svh;
   background: var(--bg-app);
-  position: relative;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-accent);
+  letter-spacing: 0.04em;
 }
 
 .main {
   max-width: 640px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 4.25rem 1rem 1rem;
 }
 
 .themeToggle {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
   border: 2px solid var(--border);
-  background: var(--bg-card);
+  background: transparent;
   font-size: 1.1rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: border-color 0.15s, background 0.15s;
-  z-index: 100;
+  transition: border-color 0.15s;
 }
 
 .themeToggle:hover {
